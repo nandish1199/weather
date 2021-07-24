@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+.searchdiv{
+  display: flex;
+  justify-content: center;
+}
+.citySearch{
+  width: 300px;
+  outline: none;
+  border: none;
+  padding: 8px 7px;
+  font-size: 21px;
+  border-radius:0 0 10px 10px;
+  text-transform: lowercase;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+}
+.citySearch:hover{
+  background: rgb(255, 238, 238);
+  outline: none;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  background:url("./assets/cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.warm{
+  background:url("./assets/sun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box{
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.inbox{
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-top: 10px;
+}
+.same{
+  padding: 2px 10px;
+  /* color: rgb(255, 255, 255); */
+  font-size: 22px;
+}
+.name{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.temperature{
+  font-size: 35px;
+  font-weight: bold;
+}
+.macTemperature{
+  font-size: 9px;
+}
+.other{
+  font-size: 18px;
+  padding: 5px;
+}
+.other span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.errmsg{
+  text-align: center;
+  font-size: 22px;
+  color: rgb(255, 255, 131);
+  font-weight: bold;
+}
